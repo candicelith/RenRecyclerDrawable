@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         var recyclerView = findViewById<RecyclerView>(R.id.rv_albums)
-        recyclerView.layoutManager = GridLayoutManager(this, 2)
+        recyclerView.layoutManager = GridLayoutManager(this, 3)
 
         val albumsList = listOf(
             AlbumsItem(R.drawable.am),
